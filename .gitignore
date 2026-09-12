@@ -1,0 +1,25 @@
+# Build outputs
+[Bb]in/
+[Oo]bj/
+.vs/
+
+# Secrets and local configuration
+.env
+.env.*
+!*.example
+appsettings.Local.json
+secrets.json
+
+# Local personal data and model artifacts
+data/
+memory.db
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+models/
+logs/
+
+# Published or recovered binaries
+artifacts/
+*.exe
+*.dll
